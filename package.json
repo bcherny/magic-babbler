@@ -1,0 +1,12 @@
+{
+  "name": "magic-babbler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "bcherny/babel#ts"
+  },
+  "scripts": {
+    "postinstall": "cd ./node_modules/babel && make bootstrap"
+  }
+}
